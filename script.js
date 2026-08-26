@@ -45,8 +45,8 @@ copyBtn.addEventListener('click', async () => {
 
 shareBtn.addEventListener('click', async () => {
   const shareData = {
-    title: 'Ajude a Maya - Cirurgia Cardíaca',
-    text: 'A Maya precisa de uma cirurgia cardíaca urgente. Doe via Pix e ajude essa causa!',
+    title: 'Ajude a Maya a vencer essa batalha! ❤️',
+    text: 'A pequena Maya tem 3 anos e nasceu com Síndrome do Coração Esquerdo Hipoplásico. Doe via Pix e ajude essa causa!',
     url: window.location.href,
   };
 
