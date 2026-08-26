@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajude a Maya - Cirurgia Cardíaca</title>
+  <meta name="description" content="Ajude a Maya a realizar a cirurgia cardíaca que ela precisa. Doe via Pix.">
+  <meta property="og:title" content="Ajude a Maya - Cirurgia Cardíaca">
+  <meta property="og:description" content="Ajude a Maya a realizar a cirurgia cardíaca que ela precisa. Doe via Pix.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <img
+        src="assets/maya.jpg"
+        alt="Foto da Maya"
+        class="photo"
+      >
+    </section>
+
+    <section class="content">
+      <h1>Ajude a Maya</h1>
+      <p class="description">
+        A Maya tem 4 anos e precisa realizar uma cirurgia cardíaca urgente.
+        A família está arrecadando fundos para cobrir os custos do procedimento
+        e da recuperação. Qualquer valor faz a diferença. Compartilhe essa
+        página e ajude a espalhar essa causa.
+      </p>
+
+      <div class="pix-section">
+        <h2>Doe via Pix</h2>
+        <p class="pix-instruction">Copie a chave abaixo e faça sua doação:</p>
+
+        <div class="pix-box">
+          <code class="pix-key" id="pix-key">
+            00020126460014BR.GOV.BCB.PIX0124financeiropibr@proton.me5204000053039865802BR5925ASSOCIACAO CRISTA PIONEIR6006RECIFE622505213QxdGJHhrvdeVLBgPsRu46304CFDA
+          </code>
+          <button class="copy-btn" id="copy-btn" aria-label="Copiar chave Pix">
+            <svg class="icon-copy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <svg class="icon-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span class="btn-text">Copiar</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Compartilhe esta página para ajudar a Maya</p>
+      <button class="share-btn" id="share-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="18" cy="5" r="3"></circle>
+          <circle cx="6" cy="12" r="3"></circle>
+          <circle cx="18" cy="19" r="3"></circle>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+        </svg>
+        Compartilhar
+      </button>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast">Chave Pix copiada!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
